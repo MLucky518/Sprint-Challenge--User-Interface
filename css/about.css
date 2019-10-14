@@ -65,123 +65,167 @@ h1, h2, h3, h4, h5 {
     font-weight:bold;
 }
 
+#LambdaLogo{
+    position: relative;
+    right:100px;
+   
 
-img{
-    box-shadow:2px 2px 2px 1px;
-    border-radius:20px;
-    
-}
-
-nav a:hover{
-    background:black;
-    color:white;
-    border:2px solid grey;
 }
 
 header{
     display:flex;
-    flex-direction: row;
-    justify-content: space-around;
+   justify-content: center;
     align-items: center;
     padding-bottom: 30px;
+    padding-right:100px;
     margin-top:30px;
    
    
 }
-#LambdaLogo{
-    position: relative;
-    right:100px;
-
-}
-
-.menu{
- 
-   padding:20px;
-}
 
 nav a{
-    
+    margin-top:15px;
     margin:35px;
     text-decoration:none;
     color:black;
     
-    
-    
-    
 }
 
-p {
-    line-height: 1.4;
+#aboutMainPic{
+    position: relative;
+    left:220px;
+    margin-bottom:40px;
 }
 
-.container {
-    width: 800px;
-    margin: 0 auto;
-}
 
-.top-content {
-
+.container-about-page{
+    position: relative;
+    right:50px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    margin-top:30px;
-    border-bottom: 1px dashed black;
-}
-
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
-}
-
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
     justify-content: center;
+    margin-top:20px;
+    border-bottom:1px dotted black;
+    width:70%;
+    padding-bottom:30px;
+    margin: 0 auto;
+    font-size:18px
+    
+    
+  
 }
 
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
+.StrategyAndWorkContent{
+    display:flex;
+    margin:0 auto;
+    height:200px;
+    font-size:18px;
+    width:72%
+ 
+ 
+ 
+}
+
+#Strategybox{
+   width:40%;
+    border-bottom: 3px dotted black;
+    margin:0 auto;
+    
+   
+   
+}
+
+
+
+#StrategyAndWorkPics{
+    position: relative;
+    left:250px;
+    display: block;
+    padding: 20px;
+
+    
+    
+}
+
+#stratPic2{
+    position: relative;
+    left:115px;
+}
+
+#stratPic1{
+    position: relative;
+    right:55px;
+    
+}
+
+.LearnMore{
+    position: relative;
+    top:50px;
+    right:250px;
+    background:black;
+    color:lightgrey;
+}
+
+.placesCollabContent{
+    padding-bottom:100px;
+    display:flex;
     justify-content: space-around;
+    font-size:18px
+    
+    
 }
 
-.bottom-content .text-container {
-    padding-right: 4%;
+#PlacesContent{
+    position: relative;
+    left:100px;
+    width:35%;
+    margin:0 auto
+    
 }
 
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+#CollabContent{
+    position: relative;
+    right:100px;
+    width:35%;
+    margin:0 auto
 }
+
+#lastParagraph{
+    padding-top:50px;
+    width:50%;
+    position: relative;
+    left:330px;
+   
+}
+
+#midLine{
+    width:70%;
+    position: relative;
+    right:30px;
+    bottom:30px;
+}
+
+#lastLine{
+    
+    width:70%;
+    position: relative;
+    right:30px;
+    bottom:30px;
+
+}
+
 
 footer {
-    width: 100%;
+    width: 50%;
     background: teal;
+    position: relative;
+    left:330px;
+    margin-top:50px;
+    
+    
 
     
 }
+
 
 footer nav {
     width: 60%;
@@ -192,7 +236,7 @@ footer nav {
 }
 
 footer nav a {
-    color: white;
+    color: lightgray;
     text-decoration: none;
     font-weight: bold;
     text-align: center;
@@ -202,7 +246,17 @@ footer nav a {
     
     
 }
-.boxes div:hover{
-  transform: rotate(-30deg); 
+
+img{
+    box-shadow:2px 2px 2px 1px;
+    border-radius:20px;
 }
+
+
+nav a:hover{
+    background:black;
+    color:white;
+    border:2px solid grey;
+}
+
 
